@@ -13,6 +13,9 @@
 		A8675F8F1F32AD63007072EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8675F8D1F32AD63007072EA /* Main.storyboard */; };
 		A8675F911F32AD63007072EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8675F901F32AD63007072EA /* Assets.xcassets */; };
 		A8675F941F32AD63007072EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8675F921F32AD63007072EA /* LaunchScreen.storyboard */; };
+		A8675FA21F32AD7A007072EA /* LCItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8675F9D1F32AD7A007072EA /* LCItemView.m */; };
+		A8675FA31F32AD7A007072EA /* LCSubItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A8675F9F1F32AD7A007072EA /* LCSubItem.m */; };
+		A8675FA41F32AD7A007072EA /* UIImage+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = A8675FA11F32AD7A007072EA /* UIImage+Draw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		A8675F901F32AD63007072EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8675F931F32AD63007072EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8675F951F32AD63007072EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8675F9B1F32AD73007072EA /* LCDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCDefines.h; sourceTree = "<group>"; };
+		A8675F9C1F32AD7A007072EA /* LCItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCItemView.h; sourceTree = "<group>"; };
+		A8675F9D1F32AD7A007072EA /* LCItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCItemView.m; sourceTree = "<group>"; };
+		A8675F9E1F32AD7A007072EA /* LCSubItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSubItem.h; sourceTree = "<group>"; };
+		A8675F9F1F32AD7A007072EA /* LCSubItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSubItem.m; sourceTree = "<group>"; };
+		A8675FA01F32AD7A007072EA /* UIImage+Draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Draw.h"; sourceTree = "<group>"; };
+		A8675FA11F32AD7A007072EA /* UIImage+Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Draw.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,18 @@
 		A8675F831F32AD63007072EA /* Animation-GroupDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A8675F9B1F32AD73007072EA /* LCDefines.h */,
 				A8675F871F32AD63007072EA /* AppDelegate.h */,
 				A8675F881F32AD63007072EA /* AppDelegate.m */,
 				A8675F8A1F32AD63007072EA /* ViewController.h */,
 				A8675F8B1F32AD63007072EA /* ViewController.m */,
 				A8675F8D1F32AD63007072EA /* Main.storyboard */,
+				A8675F9C1F32AD7A007072EA /* LCItemView.h */,
+				A8675F9D1F32AD7A007072EA /* LCItemView.m */,
+				A8675F9E1F32AD7A007072EA /* LCSubItem.h */,
+				A8675F9F1F32AD7A007072EA /* LCSubItem.m */,
+				A8675FA01F32AD7A007072EA /* UIImage+Draw.h */,
+				A8675FA11F32AD7A007072EA /* UIImage+Draw.m */,
 				A8675F901F32AD63007072EA /* Assets.xcassets */,
 				A8675F921F32AD63007072EA /* LaunchScreen.storyboard */,
 				A8675F951F32AD63007072EA /* Info.plist */,
@@ -150,7 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8675FA21F32AD7A007072EA /* LCItemView.m in Sources */,
+				A8675FA41F32AD7A007072EA /* UIImage+Draw.m in Sources */,
 				A8675F8C1F32AD63007072EA /* ViewController.m in Sources */,
+				A8675FA31F32AD7A007072EA /* LCSubItem.m in Sources */,
 				A8675F891F32AD63007072EA /* AppDelegate.m in Sources */,
 				A8675F861F32AD63007072EA /* main.m in Sources */,
 			);
