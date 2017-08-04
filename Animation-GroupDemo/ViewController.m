@@ -24,12 +24,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-//    self.view.backgroundColor = [UIColor redColor];
-    
     [self.view addSubview:self.itemView];
-//    self.itemView.backgroundColor = [UIColor greenColor];
 }
 
+#pragma mark ------<LCItemViewDelegate>
 - (void)clickSubItemWithIndex:(NSUInteger)index
 {
     NSLog(@"%lu",(unsigned long)index);
@@ -43,6 +41,7 @@
     if (!_itemView) {
         
         UIImage *mainItemImage = [UIImage imageWithShape:LCImageShapeMainItem andSize:CGSizeMake(55, 55) andStrokeColor:[UIColor redColor]];
+        
         NSMutableArray *subItemImgs = [NSMutableArray array];
         for (int i = 0; i < self.colors.count; i++) {
             UIImage *subItemImage = [UIImage imageWithShape:LCImageShapeSubItem andSize:CGSizeMake(40, 40) andStrokeColor:[self.colors objectAtIndex:i]];
