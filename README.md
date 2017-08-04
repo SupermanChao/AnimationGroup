@@ -1,6 +1,6 @@
 # AnimationGroup
-* 一个简单的核心组动画,仅供参考!
-[简书地址](http://www.jianshu.com/p/e8f314d8997b)<br />  
+  一个简单的核心组动画,仅供参考!<br />
+  [简书地址](http://www.jianshu.com/p/e8f314d8997b)<br />  
 ## Main
 * LCItemView    盛放按钮和动画的视图
 * LCSubItem     按钮
