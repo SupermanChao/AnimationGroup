@@ -6,7 +6,7 @@
 * LCSubItem     按钮
 * UIImage+Draw  画图部分
 
-[!旋转选色](https://github.com/SupermanChao/img-folder/blob/master/Animation-Group.gif)
+![旋转选色](https://github.com/SupermanChao/img-folder/blob/master/Animation-Group.gif)
 
 ## <a id="Details"></a>Details (See the example program AnimationGroup for details)
 ```objc
